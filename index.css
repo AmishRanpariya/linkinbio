@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap");
 :root {
 	--primary-col: #1e202a;
-	/* --primary-col: #f1356d; */
+	--secondary-color: #d8ebe4;
 }
 *,
 *::before,
@@ -9,7 +9,6 @@
 	margin: 0;
 	padding: 0;
 	font-family: "Quicksand";
-	color: #333;
 	box-sizing: border-box;
 }
 
@@ -18,7 +17,7 @@
 	position: sticky;
 	z-index: 99;
 	top: 0;
-	background: white;
+	background: var(--secondary-color);
 	margin: 0 auto;
 	box-shadow: 0 3px 15px -10px #00000055;
 }
@@ -26,14 +25,14 @@
 	width: 100%;
 	max-width: 850px;
 	padding: 1rem;
-	background: white;
+	background: var(--secondary-color);
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 body {
-	background-color: #1e202a;
+	background-color: var(--primary-col);
 }
 
 .note {
@@ -64,14 +63,14 @@ a {
 .btn {
 	display: inline-block;
 	text-align: center;
-	background-color: white;
+	background-color: var(--secondary-color);
 	padding: 0.5rem 5vw;
 	border-radius: 0.43rem;
 	border: 2px solid var(--primary-col);
 }
 .btn:hover,
 .btn:hover a {
-	color: white;
+	color: var(--secondary-color);
 }
 .btn:hover {
 	background-color: var(--primary-col);
