@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap");
 :root {
-	--primary-col: #000000;
+	--primary-col: #1e202a;
 	/* --primary-col: #f1356d; */
 }
 *,
@@ -18,29 +18,40 @@
 	position: sticky;
 	z-index: 99;
 	top: 0;
+	background: white;
 	margin: 0 auto;
 	box-shadow: 0 3px 15px -10px #00000055;
 }
 .navbar .nav-container {
 	width: 100%;
-	max-width: 900px;
-	padding: 1.2rem;
+	max-width: 850px;
+	padding: 1rem;
 	background: white;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
+body {
+	background-color: #1e202a;
+}
 
 .note {
 	position: fixed;
 	width: 100%;
 	z-index: 99;
+}
+.noteP {
+	width: 100%;
+	max-width: 850px;
+	margin: auto;
 	font-size: 0.8rem;
+	font-weight: 600;
 	text-align: center;
 	background: #fff8;
 	padding: 0.3rem;
 }
+
 h2 {
 	font-size: 1.3rem;
 }
