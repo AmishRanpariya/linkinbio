@@ -1,5 +1,5 @@
-const page_url = window.location.origin;
-console.log(window.location.origin);
+const page_url = window.location.href;
+console.log(window.location.href);
 
 const container = document.querySelector(".container");
 
