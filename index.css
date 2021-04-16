@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap");
+:root {
+	--primary-col: #000000;
+	/* --primary-col: #f1356d; */
+}
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	font-family: "Quicksand";
+	color: #333;
+	box-sizing: border-box;
+}
+
+.navbar {
+	width: 100%;
+	position: sticky;
+	z-index: 99;
+	top: 0;
+	margin: 0 auto;
+	box-shadow: 0 3px 15px -10px #00000055;
+}
+.navbar .nav-container {
+	width: 100%;
+	max-width: 900px;
+	padding: 1.2rem;
+	background: white;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.note {
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+	font-size: 0.8rem;
+	text-align: center;
+	background: #fff8;
+	padding: 0.3rem;
+}
+h2 {
+	font-size: 1.3rem;
+}
+h2,
+a {
+	color: var(--primary-col);
+	text-decoration: none;
+}
+
+.btn {
+	display: inline-block;
+	text-align: center;
+	background-color: white;
+	padding: 0.5rem 5vw;
+	border-radius: 0.43rem;
+	border: 2px solid var(--primary-col);
+}
+.btn:hover,
+.btn:hover a {
+	color: white;
+}
+.btn:hover {
+	background-color: var(--primary-col);
+	border: 2px solid var(--primary-col);
+}
+
+.container {
+	max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 0.3vw;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	margin-bottom: 5rem;
+	/* padding: 1%; */
+	box-shadow: 0 0 15px -5px #00000055;
+}
+
+.container a img {
+	transition: all 0.2s ease-in-out;
+	max-width: 100%;
+}
+.container a:nth-child(1) {
+	/* width: 50%; */
+	grid-row: span 2;
+	grid-column: span 2;
+}
+
+.container a {
+	overflow: hidden;
+	font-size: 0.1px;
+	aspect-ratio: 1 / 1;
+	transition: all 0.2s ease-in-out;
+}
+.container a:hover img {
+	transition: all 0.2s ease-in-out;
+	transform: scale(1.15);
+}
