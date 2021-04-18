@@ -1,10 +1,16 @@
 {
   "posts" : [
     {
+      "preview_link": "https://amishranpariya.github.io/maze_solver/",
+      "image_link": "/asset/maze20x20solved.png",
+      "id": 20210418
+    },
+    {
       "preview_link": "https://amishranpariya.github.io/maze_generator/",
       "image_link": "/asset/maze_generation.png",
       "id": 20210418
-    },{
+    },
+    {
       "preview_link": "https://amishranpariya.github.io/Country_details/",
       "image_link": "/asset/country_details.jpg",
       "id": 20210417
