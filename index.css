@@ -104,7 +104,10 @@ a {
 	transition: all 0.2s ease-in-out;
 	max-width: 100%;
 }
-
+.container a:nth-child(1) {
+	grid-column: span 2;
+	grid-row: span 2;
+}
 .container a {
 	overflow: hidden;
 	font-size: 0.1px;
