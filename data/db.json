@@ -1,6 +1,10 @@
 {
   "posts" : [
     {
+      "preview_link": "https://amishranpariya.github.io/maze_generation/",
+      "image_link": "/asset/maze_generation.png",
+      "id": 20210418
+    },{
       "preview_link": "https://amishranpariya.github.io/Country_details/",
       "image_link": "/asset/country_details.jpg",
       "id": 20210417
