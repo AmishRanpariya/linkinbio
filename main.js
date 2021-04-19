@@ -11,7 +11,9 @@ fetch("./data/db.json")
 		mydata.posts.sort((a, b) => b.id - a.id);
 
 		mydata.posts.forEach((post) => {
-			container.innerHTML += `<a class="post-div" href=${post.preview_link}>
+			container.innerHTML += `<a class="post-div" href=${
+				post.preview_link
+			} target="_blank">
 				<img src=${page_url + post.image_link} />
 				</a>`;
 		});

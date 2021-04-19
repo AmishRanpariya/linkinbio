@@ -40,7 +40,7 @@ body {
 	gap: 1rem;
 }
 .heading img {
-	width: 3rem;
+	width: 2.5rem;
 	aspect-ratio: 1/1;
 	border-radius: 50%;
 	border: 2px solid var(--primary-col);
@@ -102,7 +102,7 @@ a {
 
 .container a img {
 	transition: all 0.2s ease-in-out;
-	max-width: 100%;
+	width: 100%;
 }
 .container a:nth-child(1) {
 	grid-column: span 2;
