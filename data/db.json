@@ -1,6 +1,11 @@
 {
   "posts" : [
     {
+      "preview_link": "https://amishranpariya.github.io/A_star_algorithm_visualization/",
+      "image_link": "/asset/astar.png",
+      "id": 20210420
+    },
+    {
       "preview_link": "https://amishranpariya.github.io/base-apparel-coming-soon-page/",
       "image_link": "/asset/baseapparel.png",
       "id": 20210419
