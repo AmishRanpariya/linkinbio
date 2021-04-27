@@ -79,10 +79,16 @@ a {
 	border-radius: 0.43rem;
 	border: 2px solid var(--primary-col);
 }
+a.btn {
+	font-weight: 700;
+	color: var(--primary-col);
+}
+
 .btn:hover,
 .btn:hover a {
 	color: var(--secondary-color);
 }
+
 .btn:hover {
 	background-color: var(--primary-col);
 	border: 2px solid var(--primary-col);
